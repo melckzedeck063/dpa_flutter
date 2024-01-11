@@ -1,7 +1,6 @@
 // HomeScreen.dart
 
 import 'package:flutter/material.dart';
-import 'package:todo/HomeScreen.dart';
 // import './assets/image1.jpg';
 
 class LandingScreen extends StatelessWidget {
@@ -44,19 +43,7 @@ class LandingScreen extends StatelessWidget {
             ),
             ),
             SizedBox(height: 15),
-            ElevatedButton(
-              onPressed: (){
-                Navigator.push(
-                  context,
-                   MaterialPageRoute(builder: (context)=> HomeScreen()),
-                   );
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.orange,
-              ),
-              child:
-                  const Text('Press Me', style: TextStyle(color: Colors.white)),
-            ),
+           
           ],
         ),
       ),

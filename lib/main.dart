@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:todo/LandingScreen.dart';
 import 'package:todo/pages/home_page.dart';
+import 'package:todo/util/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home : HomePage(),
+      home : SplashScreen(),
     );
 }
 }
